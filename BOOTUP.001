@@ -1,0 +1,41 @@
+path c:\;c:\dos;c:\scorer 
+ 
+del rebootup.exe 
+ 
+del install.bat 
+ 
+del c:\fsptemp\*.*  
+ 
+rd  c:\fsptemp 
+ 
+md c:\cmosfix 
+ 
+loadcfb exists, so update the CMOS board if present. 
+loadcfb 
+ 
+c:\tmgr\tmgr com2 
+ 
+c:\setsnd.exe exists, so configure sound card. 
+SET BLASTER=A220 I5 D1 H5 P330 T6 
+ 
+cd \ 
+ 
+SetCard 
+
+ Error: DIGN8002 The BLASTER environment settings are invalid.
+
+
+
+Creative Plug and Play Configuration Manager (v1.06)
+Copyright (C) Creative Technology Ltd., 1995-1996. All rights reserved.
+
+ 
+cd \scorer 
+ 
+c:\cmndline.bat exists 
+c:\stamp.exe exists 
+call cmndline.bat 
+Executing NORMAL.BAT 
+scorer -dm -dc 
+The date (MM-DD-YYYY) is: 8-3-2025
+The time (HH:MM:SS) is: 17:43:33

@@ -1,0 +1,13 @@
+ECHO OFF
+2vid /p1 /D3 /c
+cls
+echo *** TESTING LEFT VIDEO CHANNEL ****
+2vid /p0 /D3 /a1 
+cls
+ECHO *** TESTING RIGHT VIDEO CHANNEL ***
+2vid /p1 /D3 /a1 
+ECHO 
+ECHO *** VIDEO TEST COMPLETE ***
+
+
+

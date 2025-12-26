@@ -1,0 +1,2 @@
+autoset inf=rj45 mode=io iobase=0x300 irq=11 romsize=disable
+

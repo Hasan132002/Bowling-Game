@@ -1,0 +1,11 @@
+;
+; Adapter Setup file for a 3C5X9 adapter
+; for Frameworks Scorer.
+; Created 10/05/95, 12:00:00.
+; D. Noorman
+;
+
+@I/O base address:                 300H
+@Interrupt request level:          11
+@Network driver optimization:      DOS client
+@Maximum interrupt disable time:   250 microseconds

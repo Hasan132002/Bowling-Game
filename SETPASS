@@ -1,0 +1,34 @@
+###############################################################################
+#
+#  -------------------------------------------
+#  - FRAMEWORX SOFTWARE DOWNLOAD VIA NETWORK -
+#  -------------------------------------------
+#
+#  File Name: NEWPASS.SCP
+#
+#  FUNCTIONAL DESCRIPTION.
+#       This script file overwrites the current PASSWORD.INI file in
+#       the C:\ directory with the new PASSWORD.INI file which
+#       is on the CMS.  It then reboots the scorer so the new password
+#       change will take affect.
+#
+#  MODIFICATION HISTORY.
+#       T. J. Leppien   10/03/96.       Original.
+#       T. J. Leppien   10/07/96.       Moved the location of the password.ini
+#                                       to the root directory.
+#       T. J. Leppien   10/14/96.       Added the copying of the script file
+#                                       to the new c:\swdlpass.ctl.
+#
+###############################################################################
+
+copy (R) PASSWORD.INI   (L) c:\password.ini
+
+//
+// Enable the LAN notification of success.
+//
+
+copy   (L) c:\setpass   (L) c:\swdlpass.ctl
+
+reboot
+
+end

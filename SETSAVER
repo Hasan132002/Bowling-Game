@@ -1,0 +1,33 @@
+###############################################################################
+#
+#  -------------------------------------------
+#  - FRAMEWORX SOFTWARE DOWNLOAD VIA NETWORK -
+#  -------------------------------------------
+#
+#  File Name: SAVERTM.SCP
+#
+#  FUNCTIONAL DESCRIPTION.
+#       This script file overwrites the current SAVERTM.INI file in
+#       the C:\ directory with the new SAVERTM.INI file which
+#       is on the CMS.  It then reboots the scorer so the new screen saver
+#       timeout change will take affect.
+#
+#  MODIFICATION HISTORY.
+#       T. J. Leppien   10/07/96.       Original.
+#       T. J. Leppien   10/14/96.       Added the copying of the script file
+#                                       to the new c:\swdlpass.ctl.
+#
+###############################################################################
+
+copy (R) SAVERTM.INI   (L) c:\savertm.ini
+
+//
+// Enable the LAN notification of success.
+//
+
+copy   (L) c:\setsaver   (L) c:\swdlpass.ctl
+
+reboot
+
+end
+

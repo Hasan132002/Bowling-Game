@@ -1,0 +1,68 @@
+Calling INSTALL.BAT!!!.  
+INSTALL.BAT Entered!!!. 
+Deleting all old directories. 
+Copying "spm" files to c:\tenpin\animate  
+Copying "spm" files to c:\tenpin\stills   
+Making sure c:\lastver exists. 
+Making sure c:\dummy exists. 
+Copying c:\newver1.exe into c:\dummy. 
+Deleting c:\newver1.exe in c:\. 
+Copying c:\newver2.exe into c:\dummy. 
+Deleting c:\newver2.exe in c:\. 
+Extracting NEW files from newver1.exe into c:\dummy. 
+Deleting newver1.exe in c:\dummy. 
+Extracting NEW files from newver2.exe into c:\dummy. 
+Deleting newver2.exe in c:\dummy. 
+Verifying extraction of NEW files from newver1.exe in c:\dummy. 
+Verifying extraction of NEW files from newver2.exe in c:\dummy. 
+Copying stamp.exe from c:\dummy into c:\. 
+Deleting stamp.exe in c:\dummy. 
+Copying normal.bat from c:\dummy into c:\. 
+Deleting normal.bat in c:\dummy. 
+Copying debug.bat from c:\dummy into c:\. 
+Deleting debug.bat in c:\dummy. 
+Proceeding with installation procedure. 
+Copying autoexec.new from c:\dummy into c:\. 
+Deleting autoexec.new in c:\dummy. 
+Copying reboot.exe from c:\dummy into c:\. 
+Deleting reboot.exe in c:\dummy. 
+Copying rendir.exe from c:\dummy into c:\. 
+Deleting rendir.exe in c:\dummy. 
+Copying password.ini from c:\dummy into c:\. 
+Deleting password.ini in c:\dummy. 
+Copying savertm.ini from c:\dummy into c:\. 
+Deleting savertm.ini in c:\dummy. 
+Copying loadcfb.exe from c:\dummy into c:\. 
+Deleting loadcfb.exe in c:\dummy. 
+Copying SetCard.exe from c:\dummy into c:\. 
+Deleting SetCard.exe in c:\dummy. 
+Copying SetSnd.exe from c:\dummy into c:\. 
+Deleting SetSnd.exe in c:\dummy. 
+Copying CTCM.exe from c:\dummy into c:\. 
+Deleting CTCM.exe in c:\dummy. 
+Checking if the c:\scorer\4_0_3.TAG file exists. 
+The c:\scorer\4_0_3.TAG file does NOT exists. 
+This is the FIRST installation, clearing out the c:\lastver directory. 
+Copying the c:\dummy\scorer.ini file c:\dummy\eng.ini. 
+Executing the CHANGEIT.EXE portion of the installation procedure. 
+Deleting c:\lastver directory. 
+Saving the c:\scorer directory by renaming it to the c:\lastver. 
+RENDIR.C:46, ExistingFileName: c:\scorer 
+RENDIR.C:47, NewFileName: c:\lastver 
+MoveFileA SUCCEEDED!!!
+Moving the NEW files in c:\dummy to c:\scorer. 
+RENDIR.C:46, ExistingFileName: c:\dummy 
+RENDIR.C:47, NewFileName: c:\scorer 
+MoveFileA SUCCEEDED!!!
+Getting rid of the c:\fsptemp 
+Checking if the c:\lastver\scorer.new file exists. 
+The c:\lastver\scorer.new exists.  
+Overwriting c:\scorer\scorer.ini with it. 
+Copying the OLD scorer.ini file in c:\lastver to c:\scorer\local.ini. 
+Copying the c:\scorer.ini file c:\scorer\eng.ini. 
+Replacing the c:\cmndline.bat file with the c:\normal.bat file. 
+Replacing the c:\autoexec.bat file with the c:\autoexec.new file. 
+INSTALLATION SUCCESSFUL!!!  
+Renaming c:\status.1 to swdlpass.ctl. 
+Cleaning up. 
+REBOOTING!!!  
